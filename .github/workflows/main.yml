@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Deploy app1
+    - name: Deploy app
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with: 
         server: "s1.ct8.pl"
